@@ -1,0 +1,177 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-06-17T08:40:55.281Z",
+        "line": 3,
+        "name": "Validate general user is able to view products without logging in",
+        "description": "",
+        "id": "general-view;validate-general-user-is-able-to-view-products-without-logging-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13300650900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the online product page",
+            "match": {
+              "location": "stepDefinition.HomePage.User_navigates_to_the_online_product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 478550200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on formal shoes drop down",
+            "match": {
+              "location": "stepDefinition.OnlineProductsPage.user_clicks_on_formal_shoes_drop_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178209600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to view the products",
+            "match": {
+              "location": "stepDefinition.OnlineProductsPage.user_should_be_able_to_view_the_products()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "General View",
+    "description": "",
+    "id": "general-view",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GeneralUserView.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-06-17T08:41:09.429Z",
+        "line": 3,
+        "name": "Validate user is able to view after login",
+        "description": "",
+        "id": "loggedin-user-view;validate-user-is-able-to-view-after-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9548611600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the login page",
+            "match": {
+              "location": "stepDefinition.HomePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1359629100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User successfully enters the login details",
+            "match": {
+              "location": "stepDefinition.LoginPage.User_successfully_enters_the_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()\u003d\u0027Sports Shoes\u0027]\"}\n  (Session info: chrome\u003d137.0.7151.104)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.17.0\u0027, revision: \u0027e52b1be057*\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002723.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [440f73026b9451e5cabafe4e3077332f, findElement {using\u003dxpath, value\u003d//*[text()\u003d\u0027Sports Shoes\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\\Users\\engoveni\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 440f73026b9451e5cabafe4e3077332f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat pages.LoggedInPage.visibility_productcategory_sportsshoes(LoggedInPage.java:27)\r\n\tat stepDefinition.LoggedInPage.User_should_be_able_to_view_the_product_category_page(LoggedInPage.java:11)\r\n\tat ✽.User should be able to view the product category page(file:///C:/Users/engoveni/IdeaProjects/Ace_Shoe_Web_Project/src/test/java/features/LoggedIn.feature:6)\r\n",
+              "duration": 185664200,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User should be able to view the product category page",
+            "match": {
+              "location": "stepDefinition.LoggedInPage.User_should_be_able_to_view_the_product_category_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoggedIn User View",
+    "description": "",
+    "id": "loggedin-user-view",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoggedIn.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-06-17T08:41:20.586Z",
+        "line": 3,
+        "name": "Validate new user is able to view after clicking on new Registration",
+        "description": "",
+        "id": "new-user-registration-view;validate-new-user-is-able-to-view-after-clicking-on-new-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8524595000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the login page",
+            "match": {
+              "location": "stepDefinition.HomePage.user_navigates_to_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 635540500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on new Registration button",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_clicks_on_new_registration_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82275900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to view the Registration page",
+            "match": {
+              "location": "stepDefinition.RegistrationPage.User_successfully_enters_the_login_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New User registration View",
+    "description": "",
+    "id": "new-user-registration-view",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/NewUserRegistration.feature",
+    "tags": []
+  }
+]
