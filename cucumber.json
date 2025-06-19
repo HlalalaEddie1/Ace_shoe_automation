@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2025-06-17T08:40:55.281Z",
+        "start_timestamp": "2025-06-19T09:32:36.683Z",
         "line": 3,
         "name": "Validate general user is able to view products without logging in",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13300650900,
+              "duration": 8485665500,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 478550200,
+              "duration": 93196600,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 178209600,
+              "duration": 66383300,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2025-06-17T08:41:09.429Z",
+        "start_timestamp": "2025-06-19T09:32:45.424Z",
         "line": 3,
         "name": "Validate user is able to view after login",
         "description": "",
@@ -71,7 +71,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9548611600,
+              "duration": 7919227400,
               "status": "passed"
             },
             "line": 4,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 1359629100,
+              "duration": 846600400,
               "status": "passed"
             },
             "line": 5,
@@ -95,9 +95,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()\u003d\u0027Sports Shoes\u0027]\"}\n  (Session info: chrome\u003d137.0.7151.104)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: \u00274.17.0\u0027, revision: \u0027e52b1be057*\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002723.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [440f73026b9451e5cabafe4e3077332f, findElement {using\u003dxpath, value\u003d//*[text()\u003d\u0027Sports Shoes\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\\Users\\engoveni\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50247/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 440f73026b9451e5cabafe4e3077332f\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)\r\n\tat pages.LoggedInPage.visibility_productcategory_sportsshoes(LoggedInPage.java:27)\r\n\tat stepDefinition.LoggedInPage.User_should_be_able_to_view_the_product_category_page(LoggedInPage.java:11)\r\n\tat ✽.User should be able to view the product category page(file:///C:/Users/engoveni/IdeaProjects/Ace_Shoe_Web_Project/src/test/java/features/LoggedIn.feature:6)\r\n",
-              "duration": 185664200,
-              "status": "failed"
+              "duration": 163391600,
+              "status": "passed"
             },
             "line": 6,
             "name": "User should be able to view the product category page",
@@ -120,7 +119,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2025-06-17T08:41:20.586Z",
+        "start_timestamp": "2025-06-19T09:32:54.373Z",
         "line": 3,
         "name": "Validate new user is able to view after clicking on new Registration",
         "description": "",
@@ -130,7 +129,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8524595000,
+              "duration": 8383384700,
               "status": "passed"
             },
             "line": 4,
@@ -142,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 635540500,
+              "duration": 296608700,
               "status": "passed"
             },
             "line": 5,
@@ -154,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 82275900,
+              "duration": 1140378300,
               "status": "passed"
             },
             "line": 6,
